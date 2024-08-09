@@ -152,6 +152,7 @@ int main() {
 
         switch (ch) {
             case 1:
+                cout << "\nTitle\tAuthor\tCost";
                 for (int i = 0; i < n; i++) {
                     B[i].display();
                 }
